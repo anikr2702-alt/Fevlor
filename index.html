@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#301A2B" />
+    <meta
+      name="description"
+      content="FEVLOR — premium framed posters and wall art. Discover considered artwork for your home and workspace, with free shipping across India."
+    />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' https://challenges.cloudflare.com; style-src 'self'; img-src 'self' https: data:; connect-src 'self' https://script.google.com https://script.googleusercontent.com https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; base-uri 'self'; form-action 'self'; object-src 'none'"
+    />
+    <title>FEVLOR — Art that feels like you.</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./js/app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="announcement">
+      Thoughtful art. Beautiful spaces. <span>Free shipping across India.</span>
+    </div>
+    <header class="site-header">
+      <a href="#/" class="brand" aria-label="FEVLOR home"
+        ><img
+          src="./assets/fevlor-logo.png"
+          width="1983"
+          height="793"
+          alt="FEVLOR"
+      /></a>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#/">Home</a><a href="#/shop">Shop</a
+        ><a href="#/categories">Categories</a><a href="#/about">About Us</a
+        ><a href="#/contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="bag" href="#/cart" aria-label="Shopping bag"
+          ><svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            aria-hidden="true"
+          >
+            <path d="M5 7h14l1 14H4L5 7Z" />
+            <path d="M8 8V6a4 4 0 0 1 8 0v2" /></svg
+          ><span class="bag-label">Bag</span><span id="cart-count">0</span></a
+        ><button
+          class="menu-toggle icon-button"
+          id="menu-toggle"
+          aria-label="Open navigation"
+          aria-controls="navigation"
+          aria-expanded="false"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            aria-hidden="true"
+          >
+            <path d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main id="main" tabindex="-1"></main>
+    <footer id="footer"></footer>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <noscript
+      ><p class="notice">
+        Please enable JavaScript to browse the live collection and place an
+        order.
+      </p></noscript
+    >
+  </body>
+</html>
